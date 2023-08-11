@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+}
+
+body {
+    background-image: url(https://imgs.search.brave.com/pvga2HzihEknYZ4cl4paOihEi9vLeXtcNVCdOAIaNpY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9ibHVlLWNhcmRi/b2FyZC1iYWNrZ3Jv/dW5kLWZsYXQtbGF5/LXRvcC12aWV3XzE2/NDM1Ny0yOTg0Lmpw/Zz9zaXplPTYyNiZl/eHQ9anBn);
+    background-size: cover;
 }
 
 h1 {
@@ -11,7 +15,8 @@ h1 {
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    color: yellow;
+    color: #090979;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 50px;
 }
 
@@ -25,9 +30,10 @@ h1 {
     margin-top: 30px;
 }
 
-img{
-    border: dotted antiquewhite;
+img {
+    /* border: dotted antiquewhite; */
     height: 300px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
 }
 
 .btn {
@@ -36,14 +42,16 @@ img{
     justify-content: center;
     align-items: center;
     height: 3.5rem;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #start {
-    /* border: 2px dashed yellow; */
-    padding: 10px 20px;
+    /* border: 2px solid yellow; */
+    padding: 15px 20px;
+    background-color: #0a0a23;
+    color: #fff;
     border: none;
-    border-radius: 5px;
-    background-color: #cbcbcb;
-
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    font-size: 15px;
 }
