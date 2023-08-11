@@ -5,25 +5,34 @@
 }
 
 body {
-    background-image: url(https://imgs.search.brave.com/pvga2HzihEknYZ4cl4paOihEi9vLeXtcNVCdOAIaNpY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9ibHVlLWNhcmRi/b2FyZC1iYWNrZ3Jv/dW5kLWZsYXQtbGF5/LXRvcC12aWV3XzE2/NDM1Ny0yOTg0Lmpw/Zz9zaXplPTYyNiZl/eHQ9anBn);
+    background-image: url(https://wallpapers.com/images/hd/flower-design-background-41l4g7ul08c2gn3x.jpg);
     background-size: cover;
 }
 
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 h1 {
-    /* border: solid red; */
-    height: 3rem;
-    width: 100%;
-    text-align: center;
+    background-color:#fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline;
     margin-top: 20px;
-    color: #090979;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 50px;
+    color: #e11d48;
+    text-shadow: 5px 5px 4px rgba(248, 102, 175, 0.5);
+    font-size: 4rem;
 }
 
 
 
 .main2 {
-    /* border: solid forestgreen; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +40,10 @@ h1 {
 }
 
 img {
-    /* border: dotted antiquewhite; */
-    height: 300px;
-    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    border: 20px solid #fb7185;
+    height:20rem;
+    border-radius: 5px;
+    box-shadow: rgba(238, 6, 6, 0.25) 0px 54px 55px, rgba(252, 8, 8, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .btn {
